@@ -43,7 +43,7 @@ jobs:
           path: ./dist
 
       - name: Deploy to GitHub Pages
-        uses: DKJewellers/dkjewellers.github.io@v1
+        uses: DKJewellers/dkjewellers.github.io@ee357c1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./dist
